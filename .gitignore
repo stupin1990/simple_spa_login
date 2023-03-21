@@ -1,2 +1,3 @@
 /Src/Frontend/node_modules/*
 /vendor/*
+/Src/Backend/Core/Config.php
