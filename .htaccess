@@ -1,0 +1,4 @@
+Options +FollowSymLinks -MultiViews
+RewriteEngine On
+RewriteBase /
+RewriteRule (.*?) /public/$1 [L,NC]

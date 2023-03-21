@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            {{title}}
+        </title>
+        <meta charset="utf-8">
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <link href="/public/assets/css/bootstrap.min.css" rel="stylesheet">
+        <link href="/public/assets/dist/css/app.css" rel="stylesheet">
+    </head>
+  <body>
+    <div id="app">
+    </div>
+    <script>
+       $_data = JSON.parse("{{data}}")
+    </script>
+    <script src="/public/assets/js/bootstrap.bundle.min.js"></script>
+    <script src="/public/assets/dist/js/chunk-vendors.js"></script>
+    <script src="/public/assets/dist/js/app.js"></script>
+  </body>
+</html>
