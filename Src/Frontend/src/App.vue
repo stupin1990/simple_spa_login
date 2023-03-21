@@ -95,10 +95,7 @@ export default {
                 }
             }
             catch (error) {
-                this.error = 'There was some error!'
-                if (error?.error) {
-                    this.error = error
-                }
+                this.error = error.message ?? 'There was some error!'
             }
         },
 
