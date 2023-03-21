@@ -1,4 +1,4 @@
-CREATE TABLE `todo`.`users` (
+CREATE TABLE `users` (
     `id` INT NOT NULL AUTO_INCREMENT , 
     `name` VARCHAR(100) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL , 
     `email` VARCHAR(100) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL , 
